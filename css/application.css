@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+html {
+  text-align: center;
+}
+
+* {
+  margin: 0 auto;
+  background-color: #1E8BC3;
+}
+
+body {
+  font-family: 'Raleway', 'Trebuchet MS', Helvetica, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 50px;
+  /*font-weight: bold;*/
+}
+
+footer {
+  margin-top: 20px;
+}
+
+/*#### hiding images ####*/
+
+
+#img_1, #img_3, #img_5, #img_7, #img_9, #img_11, #img_13, #img_15 {
+  display: none;
+}
+
+
+/*########## Bootstrap Grid ##################*/
+
+/*   4 by 4   */
+.col-md-3 {
+  /*border: 5px solid lightgray;*/
+  margin-bottom: 5px;
+  height: 200px;
+/*  padding: 1px;
+  margin: 5px;*/
+  /*background-color: red;*/
+  /* refactor background image attrs down to one line*/
+  background-image: url("../eda_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+}
+
+.col-md-3 img {
+  width: 150px;
+}
+
